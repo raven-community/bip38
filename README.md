@@ -1,16 +1,12 @@
 # bip38
 
-[![build status](https://secure.travis-ci.org/bitcoinjs/bip38.svg)](http://travis-ci.org/bitcoinjs/bip38)
-[![Coverage Status](https://img.shields.io/coveralls/cryptocoinjs/bip38.svg)](https://coveralls.io/r/cryptocoinjs/bip38)
-[![Version](http://img.shields.io/npm/v/bip38.svg)](https://www.npmjs.org/package/bip38)
-
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 A JavaScript component that adheres to the [BIP38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki) standard to secure your crypto currency private keys. Fully compliant with Node.js and the browser (via Browserify).
 
 
 ## Why?
-BIP38 is a standard process to encrypt Bitcoin and crypto currency private keys that is imprevious to brute force attacks thus protecting the user.
+BIP38 is a standard process to encrypt Ravencoin and crypto currency private keys that is imprevious to brute force attacks thus protecting the user.
 
 
 ## Package Info
@@ -67,4 +63,3 @@ console.log(wif.encode(0x80, decryptedKey.privateKey, decryptedKey.compressed))
 - https://github.com/casascius/Bitcoin-Address-Utility/tree/master/Model
 - https://github.com/nomorecoin/python-bip38-testing/blob/master/bip38.py
 - https://github.com/pointbiz/bitaddress.org/blob/master/src/ninja.key.js
-
